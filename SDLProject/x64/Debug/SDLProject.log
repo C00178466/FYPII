@@ -1,8 +1,8 @@
 ﻿  main.cpp
-c:\users\gameuser\desktop\research paper\sdlproject\sdlproject\main.cpp(79): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\gameuser\desktop\research paper\sdlproject\sdlproject\main.cpp(81): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\gameuser\desktop\research paper\sdlproject\sdlproject\main.cpp(134): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\gameuser\desktop\research paper\sdlproject\sdlproject\main.cpp(137): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\gameuser\desktop\research paper\sdlproject\sdlproject\main.cpp(155): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\gameuser\desktop\research paper\sdlproject\sdlproject\main.cpp(14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\gameuser\desktop\research paper\sdlproject\sdlproject\main.cpp(16): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\gameuser\desktop\research paper\sdlproject\sdlproject\main.cpp(35): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\gameuser\desktop\research paper\sdlproject\sdlproject\main.cpp(38): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\gameuser\desktop\research paper\sdlproject\sdlproject\main.cpp(56): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   SDLProject.vcxproj -> C:\Users\gameuser\Desktop\Research Paper\SDLProject\x64\Debug\SDLProject.exe
   SDLProject.vcxproj -> C:\Users\gameuser\Desktop\Research Paper\SDLProject\x64\Debug\SDLProject.pdb (Partial PDB)

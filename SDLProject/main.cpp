@@ -4,9 +4,12 @@
 #include <cstdlib>
 #include <cmath>
 #include <time.h>
+
 using namespace std;
+
 const int SCREEN_WIDTH = 1080;
 const int SCREEN_HEIGHT = 720;
+
 SDL_Window* gWindow = NULL;
 SDL_Renderer* gRenderer = NULL;
 int arr_size = pow(2.0, 11.0) + 1;
@@ -22,6 +25,7 @@ void initializeArray()
 		terrain_array[i] = 0;
 	}
 }
+
 void generateTerrain(int start, int end, int displacement)
 {
 	if ((start + 1) == end)
@@ -38,13 +42,13 @@ void generateTerrain(int start, int end, int displacement)
 }
 void drawTerrain()
 {
-	int start_point = 1;
+	int start = 1;
 	int i;
-	SDL_SetRenderDrawColor(gRenderer, 96, 96, 255, 255);
+	SDL_SetRenderDrawColor(gRenderer, 0, 153, 0, 255);
 	for (i = 1; i < arr_size; i++)
 	{
-		SDL_RenderDrawLine(gRenderer, start_point, SCREEN_HEIGHT, i, (terrain_array[(intCount + i) % arr_size] + 3 * intial_displacement));
-		start_point = i;
+		SDL_RenderDrawLine(gRenderer, start, SCREEN_HEIGHT, i, (terrain_array[(intCount + i) % arr_size] + 3 * intial_displacement));
+		start = i;
 	}
 	intCount++;
 }
