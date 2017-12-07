@@ -1,10 +1,10 @@
 ﻿  noiseutils.cpp
-c:\users\gameuser\desktop\research paper\heightmaps\heightmaps\noiseutils.h(1217): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
-c:\users\gameuser\desktop\research paper\heightmaps\heightmaps\noiseutils.cpp(61): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\gameuser\desktop\research paper\heightmaps\heightmaps\noiseutils.cpp(62): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\gameuser\desktop\research paper\heightmaps\heightmaps\noiseutils.cpp(867): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\gameuser\desktop\research paper\githubstuff\heightmaps\heightmaps\noiseutils.h(1217): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+c:\users\gameuser\desktop\research paper\githubstuff\heightmaps\heightmaps\noiseutils.cpp(61): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\gameuser\desktop\research paper\githubstuff\heightmaps\heightmaps\noiseutils.cpp(62): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\gameuser\desktop\research paper\githubstuff\heightmaps\heightmaps\noiseutils.cpp(867): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   main.cpp
-c:\users\gameuser\desktop\research paper\heightmaps\heightmaps\noiseutils.h(1217): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+c:\users\gameuser\desktop\research paper\githubstuff\heightmaps\heightmaps\noiseutils.h(1217): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
   Generating Code...
-  HeightMaps.vcxproj -> C:\Users\gameuser\Desktop\Research Paper\HeightMaps\Debug\HeightMaps.exe
-  HeightMaps.vcxproj -> C:\Users\gameuser\Desktop\Research Paper\HeightMaps\Debug\HeightMaps.pdb (Partial PDB)
+  HeightMaps.vcxproj -> C:\Users\gameuser\Desktop\Research Paper\GithubStuff\HeightMaps\Debug\HeightMaps.exe
+  HeightMaps.vcxproj -> C:\Users\gameuser\Desktop\Research Paper\GithubStuff\HeightMaps\Debug\HeightMaps.pdb (Partial PDB)
