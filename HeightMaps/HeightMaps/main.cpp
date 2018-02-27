@@ -11,11 +11,11 @@ http://libnoise.sourceforge.net/index.html
 
 int main(int argc, char** argv)
 {
-	module::Perlin myModule; //create instance of perlin noise module
+	module::Perlin perlinModule; //create instance of perlin noise module
 
 	utils::NoiseMap heightMap;
 	utils::NoiseMapBuilderPlane heightMapBuilder;
-	heightMapBuilder.SetSourceModule(myModule);
+	heightMapBuilder.SetSourceModule(perlinModule);
 	heightMapBuilder.SetDestNoiseMap(heightMap);
 	heightMapBuilder.SetDestSize(256, 256); //size of map to generate
 	heightMapBuilder.SetBounds(6.0, 10.0, 1.0, 5.0);
