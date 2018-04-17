@@ -1,3 +1,11 @@
-﻿  main.cpp
-  OpenGL Terrain.vcxproj -> C:\Users\gameuser\Desktop\Working Terrain\OpenGL Terrain\Debug\OpenGL Terrain.exe
-  OpenGL Terrain.vcxproj -> C:\Users\gameuser\Desktop\Working Terrain\OpenGL Terrain\Debug\OpenGL Terrain.pdb (Partial PDB)
+﻿  vec3f.cpp
+  Terrain.cpp
+  NativeWrapper.cpp
+  main.cpp
+  imageloader.cpp
+  Game.cpp
+  Generating Code...
+  LINK : C:\Users\gameuser\Desktop\New New Working Terrain\OpenGL Terrain\Debug\OpenGL Terrain.dll not found or not built by the last incremental link; performing full link
+     Creating library C:\Users\gameuser\Desktop\New New Working Terrain\OpenGL Terrain\Debug\OpenGL Terrain.lib and object C:\Users\gameuser\Desktop\New New Working Terrain\OpenGL Terrain\Debug\OpenGL Terrain.exp
+  OpenGL Terrain.vcxproj -> C:\Users\gameuser\Desktop\New New Working Terrain\OpenGL Terrain\Debug\OpenGL Terrain.dll
+  OpenGL Terrain.vcxproj -> C:\Users\gameuser\Desktop\New New Working Terrain\OpenGL Terrain\Debug\OpenGL Terrain.pdb (Partial PDB)

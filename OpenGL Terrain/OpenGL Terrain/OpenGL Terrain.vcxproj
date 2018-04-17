@@ -19,13 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Game.h" />
     <ClInclude Include="imageloader.h" />
+    <ClInclude Include="NativeWrapper.h" />
     <ClInclude Include="Terrain.h" />
     <ClInclude Include="vec3f.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="imageloader.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NativeWrapper.cpp" />
     <ClCompile Include="Terrain.cpp" />
     <ClCompile Include="vec3f.cpp" />
   </ItemGroup>

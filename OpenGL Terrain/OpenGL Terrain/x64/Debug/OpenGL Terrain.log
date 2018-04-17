@@ -1,17 +1,13 @@
-﻿  main.cpp
-c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\minwindef.h(127): warning C4005: 'CALLBACK': macro redefinition
-  c:\users\gameuser\desktop\terraingeneration\opengl terrain\dependencies\glut\glut.h(34): note: see previous definition of 'CALLBACK'
-main.obj : error LNK2019: unresolved external symbol __imp_glutInit referenced in function main
-main.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
-main.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
-main.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
-main.obj : error LNK2019: unresolved external symbol __imp_glutCreateWindow referenced in function main
-main.obj : error LNK2019: unresolved external symbol __imp_glutPostRedisplay referenced in function "void __cdecl update(int)" (?update@@YAXH@Z)
-main.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "void __cdecl drawScene(void)" (?drawScene@@YAXXZ)
-main.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
-main.obj : error LNK2019: unresolved external symbol __imp_glutReshapeFunc referenced in function main
-main.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardFunc referenced in function main
-main.obj : error LNK2019: unresolved external symbol __imp_glutTimerFunc referenced in function "void __cdecl update(int)" (?update@@YAXH@Z)
-C:\Users\gameuser\Desktop\TerrainGeneration\OpenGL Terrain\Dependencies\GLEW\lib\Release\Win32\glew32s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\gameuser\Desktop\PleaseWork\OpenGL Terrain\Dependencies\GLUT\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\Users\gameuser\Desktop\PleaseWork\OpenGL Terrain\x64\Debug\OpenGL Terrain.exe : fatal error LNK1120: 11 unresolved externals
+﻿  vec3f.cpp
+  Terrain.cpp
+  NativeWrapper.cpp
+c:\users\gameuser\desktop\working terrain (backup)\opengl terrain\opengl terrain\nativewrapper.h(31): warning C4190: 'getNormal' has C-linkage specified, but returns UDT 'Vec3f' which is incompatible with C
+  c:\users\gameuser\desktop\working terrain (backup)\opengl terrain\opengl terrain\vec3f.h(25): note: see declaration of 'Vec3f'
+c:\users\gameuser\desktop\working terrain (backup)\opengl terrain\opengl terrain\nativewrapper.cpp(35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\gameuser\desktop\working terrain (backup)\opengl terrain\opengl terrain\nativewrapper.cpp(41): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\gameuser\desktop\working terrain (backup)\opengl terrain\opengl terrain\nativewrapper.cpp(46): warning C4190: 'getNormal' has C-linkage specified, but returns UDT 'Vec3f' which is incompatible with C
+  c:\users\gameuser\desktop\working terrain (backup)\opengl terrain\opengl terrain\vec3f.h(25): note: see declaration of 'Vec3f'
+  main.cpp
+c:\users\gameuser\desktop\working terrain (backup)\opengl terrain\opengl terrain\main.cpp(6): fatal error C1083: Cannot open include file: 'glut.h': No such file or directory
+  imageloader.cpp
+  Generating Code...
