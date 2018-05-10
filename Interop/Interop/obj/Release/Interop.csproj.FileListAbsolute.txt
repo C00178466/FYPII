@@ -1,7 +1,0 @@
-C:\Users\gameuser\Documents\Visual Studio 2017\Projects\Interop\Interop\bin\Release\Interop.exe.config
-C:\Users\gameuser\Documents\Visual Studio 2017\Projects\Interop\Interop\bin\Release\Interop.exe
-C:\Users\gameuser\Documents\Visual Studio 2017\Projects\Interop\Interop\bin\Release\Interop.pdb
-C:\Users\gameuser\Documents\Visual Studio 2017\Projects\Interop\Interop\obj\Release\Interop.csprojResolveAssemblyReference.cache
-C:\Users\gameuser\Documents\Visual Studio 2017\Projects\Interop\Interop\obj\Release\Interop.csproj.CoreCompileInputs.cache
-C:\Users\gameuser\Documents\Visual Studio 2017\Projects\Interop\Interop\obj\Release\Interop.exe
-C:\Users\gameuser\Documents\Visual Studio 2017\Projects\Interop\Interop\obj\Release\Interop.pdb
